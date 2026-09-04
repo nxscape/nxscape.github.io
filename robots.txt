@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://nxscape.github.io/lifescene/sitemap.xml
 Sitemap: https://nxscape.github.io/sitemap.xml
