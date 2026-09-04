@@ -4,6 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXCRYZH036"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XXCRYZH036");
+    </script>
+
     <title>LifeScene｜日付を選ぶだけで思い出を整理できる写真整理アプリ</title>
     <meta
       name="description"
@@ -71,7 +82,7 @@
           <span class="brand-name">LifeScene</span>
         </a>
 
-        <a class="appstore-btn" href="#" data-appstore-link aria-label="App StoreでLifeSceneを入手">
+        <a class="appstore-btn" href="#" data-appstore-link data-appstore-location="header" aria-label="App StoreでLifeSceneを入手">
           <img
             class="appstore-badge"
             src="assets/images/app_store_badge.png"
@@ -101,7 +112,7 @@
               </p>
 
               <div class="hero-cta">
-                <a class="appstore-btn" href="#" data-appstore-link>
+                <a class="appstore-btn" href="#" data-appstore-link data-appstore-location="hero">
                   <img
                     class="appstore-badge"
                     src="assets/images/app_store_badge.png"
@@ -339,7 +350,7 @@
               かんたんに残して、振り返ろう。
             </p>
 
-            <a class="appstore-btn appstore-btn--final" href="#" data-appstore-link>
+            <a class="appstore-btn appstore-btn--final" href="#" data-appstore-link data-appstore-location="footer_cta">
               <img
                 class="appstore-badge"
                 src="assets/images/app_store_badge.png"
