@@ -655,18 +655,18 @@ img {
     white-space: nowrap;
   }
 
-  /* セクション間リズム */
+  /* セクション間リズム（steps ↔ AI。JAは中間の easy を省略） */
   .steps {
-    padding-bottom: 36px;
+    padding-bottom: 48px;
   }
 
   .easy {
     padding-top: 40px;
-    padding-bottom: 36px;
+    padding-bottom: 40px;
   }
 
   .ai {
-    padding-top: 36px;
+    padding-top: 48px;
     padding-bottom: 36px;
   }
 
